@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Portable continuity context for Clara Desktop Buddy",
+  "created_at": "2026-10-13",
+  "user_preferences": {
+    "language": "id-ID",
+    "research_style": "deep, critical, source-backed, uncertainty-aware",
+    "assistant_scope": [
+      "small business and marketing",
+      "ethical cybersecurity learning",
+      "coding and documentation",
+      "daily productivity",
+      "Windows desktop assistance"
+    ]
+  },
+  "files": {
+    "memory_profile.md": "Human-editable durable profile; verify volatile facts",
+    "memory_journal.jsonl": "Optional local conversation journal, may contain sensitive text",
+    "MEMORY_TRANSFER_PROMPT_ID.md": "Instructions for importing context into another AI",
+    "FEATURE_CATALOG_ID.md": "220 feature concepts and implementation statuses, not a claim that all are implemented"
+  },
+  "secrets_policy": "Never store passwords, OTPs, API keys, auth tokens, bank credentials, or customer secrets."
+}

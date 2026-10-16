@@ -1,0 +1,239 @@
+﻿﻿id,kategori,fitur,deskripsi,prioritas,status
+CL-001,Karakter & UI,Avatar anime mengambang,Karakter desktop kecil yang selalu terlihat ketika Clara berjalan.,P0,Fondasi ada / perlu validasi Windows
+CL-002,Karakter & UI,Mode avatar besar,Jendela avatar besar untuk sesi ngobrol atau kerja fokus.,P0,Fondasi ada / perlu validasi Windows
+CL-003,Karakter & UI,Ekspresi wajah berbasis status,"Ekspresi senang, berpikir, mendengar, berbicara, dan terkejut.",P0,Fondasi ada / perlu validasi Windows
+CL-004,Karakter & UI,Animasi idle,Gerakan mengambang dan perubahan frame sekitar setiap 90 ms.,P1,Fondasi ada / perlu validasi Windows
+CL-005,Karakter & UI,Lip-sync audio,Gerakan mulut diselaraskan dengan audio jawaban.,P1,Rencana / belum diimplementasikan
+CL-006,Karakter & UI,Animasi tubuh 3D,"Model rigged dengan gerakan kepala, tangan, dan badan.",P1,Rencana / belum diimplementasikan
+CL-007,Karakter & UI,Tema dan warna,"Pilihan tema gelap, terang, dan warna aksen.",P1,Rencana / belum diimplementasikan
+CL-008,Karakter & UI,Posisi avatar tersimpan,Mengingat posisi avatar terakhir di layar.,P2,Rencana / belum diimplementasikan
+CL-009,Karakter & UI,Bubble chat kontekstual,Bubble singkat dekat avatar yang hilang otomatis.,P2,Fondasi ada / perlu validasi Windows
+CL-010,Karakter & UI,Mode jangan ganggu,Membisukan suara dan notifikasi saat presentasi atau belajar.,P2,Rencana / belum diimplementasikan
+CL-011,Suara & Percakapan,Selalu mendengarkan ON/OFF,Mode mikrofon berkelanjutan yang mudah dimatikan.,P0,Fondasi ada / perlu validasi Windows
+CL-012,Suara & Percakapan,Wake word lokal,"Kata panggil yang diproses lokal; mode suara saat ini tidak memiliki wake word.",P0,Rencana / belum diimplementasikan
+CL-013,Suara & Percakapan,Deteksi akhir ucapan,Menentukan kapan pengguna selesai berbicara sebelum menjawab.,P0,Fondasi ada / perlu validasi Windows
+CL-014,Suara & Percakapan,Interrupt saat TTS,Pengguna dapat memotong jawaban Clara dengan mulai berbicara.,P1,Rencana / belum diimplementasikan
+CL-015,Suara & Percakapan,Percakapan audio streaming,Ucapan dan jawaban terasa lebih alami tanpa menunggu satu putaran panjang.,P1,Rencana / belum diimplementasikan
+CL-016,Suara & Percakapan,Pilihan suara Windows,Memilih suara SAPI yang terpasang; bahasa dan suara perempuan bergantung paket voice Windows.,P1,Fondasi ada / perlu validasi Windows
+CL-017,Suara & Percakapan,Kecepatan dan volume suara,"Pengaturan laju bicara, volume, dan jeda.",P1,Rencana / belum diimplementasikan
+CL-018,Suara & Percakapan,Pengenalan Bahasa Indonesia,"Google Speech Recognition dipanggil dengan locale id-ID.",P2,Fondasi ada / perlu validasi Windows
+CL-019,Suara & Percakapan,Push-to-talk cadangan,Tombol untuk mendengar satu kali jika mode hands-free dimatikan.,P2,Fondasi ada / perlu validasi Windows
+CL-020,Suara & Percakapan,Subtitle ucapan,Menampilkan transkrip ringkas di bubble dan jawaban sebagai teks.,P2,Fondasi ada / perlu validasi Windows
+CL-021,Penglihatan Desktop,Screenshot dengan izin,Mengambil frame layar hanya setelah pengguna menyetujui.,P0,Fondasi ada / perlu validasi Windows
+CL-022,Penglihatan Desktop,Live Screen ON/OFF,Pengamatan layar berkala yang terlihat statusnya.,P0,Fondasi ada / perlu validasi Windows
+CL-023,Penglihatan Desktop,Deteksi perubahan layar,Menghindari unggah frame yang sama berulang kali.,P0,Fondasi ada / perlu validasi Windows
+CL-024,Penglihatan Desktop,Pengenalan jendela aktif,Menampilkan judul jendela aktif saat diminta atau saat pemantauan lokal aktif.,P1,Fondasi ada / perlu validasi Windows
+CL-025,Penglihatan Desktop,Daftar aplikasi aktif,Menampilkan nama proses Windows atas permintaan; tidak menghentikan proses.,P1,Fondasi ada / perlu validasi Windows
+CL-026,Penglihatan Desktop,Penyamaran area sensitif,Mengecualikan atau memburamkan area yang dipilih pengguna.,P1,Rencana / belum diimplementasikan
+CL-027,Penglihatan Desktop,Jeda di aplikasi sensitif,"Live Screen mencoba jeda lewat kata kunci judul jendela; deteksinya tidak sempurna.",P1,Fondasi ada / perlu validasi Windows
+CL-028,Penglihatan Desktop,OCR lokal opsional,Mengenali teks lokal sebelum mengirim bagian yang disetujui.,P2,Rencana / belum diimplementasikan
+CL-029,Penglihatan Desktop,Ringkasan aktivitas visual,"Merangkum frame yang dibagikan secara berkala, bukan melihat jendela tersembunyi.",P2,Fondasi ada / perlu validasi Windows
+CL-030,Penglihatan Desktop,Kontrol frekuensi dan biaya,"Mengatur interval, kualitas gambar, durasi sesi, dan batas penggunaan API.",P2,Rencana / belum diimplementasikan
+CL-031,Otomasi Desktop,Buka aplikasi yang diizinkan,Membuka aplikasi melalui daftar nama yang jelas.,P0,Fondasi ada / perlu validasi Windows
+CL-032,Otomasi Desktop,Buka situs tepercaya,Membuka URL HTTP/HTTPS yang divalidasi.,P0,Fondasi ada / perlu validasi Windows
+CL-033,Otomasi Desktop,Ketik teks dengan pratinjau,Meninjau teks sebelum disisipkan ke aplikasi.,P0,Fondasi ada / perlu validasi Windows
+CL-034,Otomasi Desktop,Klik dan scroll terarah,Menggunakan koordinat layar setelah pengguna memeriksa pratinjau rencana.,P1,Fondasi ada / perlu validasi Windows
+CL-035,Otomasi Desktop,Rencana aksi bertahap,Membuat rencana GUI berurutan dengan batas maksimum 12 tindakan.,P1,Fondasi ada / perlu validasi Windows
+CL-036,Otomasi Desktop,Konfirmasi tindakan penting,Menampilkan pratinjau dan konfirmasi tambahan untuk kategori sensitif.,P1,Fondasi ada / perlu validasi Windows
+CL-037,Otomasi Desktop,Tombol berhenti darurat,"Menghentikan langkah berikutnya melalui tombol stop dan fail-safe PyAutoGUI.",P1,Fondasi ada / perlu validasi Windows
+CL-038,Otomasi Desktop,Verifikasi setelah aksi,Mengecek hasil melalui screenshot atau sinyal UI setelah tindakan.,P2,Rencana / belum diimplementasikan
+CL-039,Otomasi Desktop,Daftar aksi terlarang,"Menolak shell arbitrer, elevasi admin, dan beberapa aksi sensitif.",P2,Fondasi ada / perlu validasi Windows
+CL-040,Otomasi Desktop,Mode sandbox otomasi,Menguji alur pada aplikasi dummy sebelum digunakan pada akun asli.,P2,Rencana / belum diimplementasikan
+CL-041,Memory & Pengetahuan,Profil memory portabel,Preferensi dan konteks stabil yang dapat dibaca manusia.,P0,Ditambahkan di paket v3 (uji langsung diperlukan)
+CL-042,Memory & Pengetahuan,Jurnal percakapan lokal,"Menyimpan prompt dan jawaban secara default sesuai permintaan pengguna; dapat dimatikan, dan pola credential umum disamarkan sebelum penyimpanan.",P0,Ditambahkan di build portable (uji langsung diperlukan)
+CL-043,Memory & Pengetahuan,Impor profil memory,Memuat file profil dari ekspor terdahulu atau AI lain.,P0,Ditambahkan di paket v3 (uji langsung diperlukan)
+CL-044,Memory & Pengetahuan,Ekspor memory ZIP,"Mengemas profil, jurnal, prompt migrasi, dan katalog fitur.",P1,Ditambahkan di paket v3 (uji langsung diperlukan)
+CL-045,Memory & Pengetahuan,Edit memory manual,"Pengguna dapat meninjau, memperbaiki, atau menghapus fakta.",P1,Ditambahkan di paket v3 (uji langsung diperlukan)
+CL-046,Memory & Pengetahuan,Fakta dengan tanggal,"Mencatat kapan harga, preferensi, atau keputusan terakhir diverifikasi.",P1,Rencana / belum diimplementasikan
+CL-047,Memory & Pengetahuan,Kadaluarsa memory,Menandai data yang sering berubah agar tidak dianggap masih mutakhir.,P1,Rencana / belum diimplementasikan
+CL-048,Memory & Pengetahuan,Pencarian memory,Mencari percakapan dan keputusan terdahulu secara lokal.,P2,Rencana / belum diimplementasikan
+CL-049,Memory & Pengetahuan,Memory per proyek,"Memisahkan konteks bisnis, sekolah, cyber, dan proyek coding.",P2,Rencana / belum diimplementasikan
+CL-050,Memory & Pengetahuan,Riwayat perubahan memory,Mengetahui siapa/apa yang mengubah catatan dan kapan.,P2,Rencana / belum diimplementasikan
+CL-051,Bisnis E-commerce,Audit toko marketplace,Memeriksa halaman produk dari data yang diberikan pengguna.,P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-052,Bisnis E-commerce,Audit listing produk,"Meninjau foto, judul, deskripsi, variasi, FAQ, dan CTA.",P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-053,Bisnis E-commerce,Analisis funnel,"Memisahkan impresi, klik, add-to-cart, checkout, dan pembelian.",P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-054,Bisnis E-commerce,Analisis CTR,"Mengukur hasil thumbnail, judul, serta impresi berdasarkan data asli.",P1,Rencana / belum diimplementasikan
+CL-055,Bisnis E-commerce,Analisis konversi,Menelusuri penurunan antara klik dan pembelian.,P1,Rencana / belum diimplementasikan
+CL-056,Bisnis E-commerce,Analisis margin per pesanan,"Menghitung kontribusi setelah HPP, biaya marketplace, iklan, dan komisi.",P1,Rencana / belum diimplementasikan
+CL-057,Bisnis E-commerce,Eksperimen harga,Mengusulkan uji harga atau bundel dengan margin sebagai batas.,P1,Rencana / belum diimplementasikan
+CL-058,Bisnis E-commerce,Analisis ulasan,Mengelompokkan keluhan dan motif pembelian dari ulasan yang sah.,P2,Rencana / belum diimplementasikan
+CL-059,Bisnis E-commerce,Repeat order,Menyusun strategi pembelian ulang tanpa spam atau klaim palsu.,P2,Rencana / belum diimplementasikan
+CL-060,Bisnis E-commerce,Dashboard seller,Menampilkan KPI utama dari CSV atau ekspor yang diunggah pengguna.,P2,Rencana / belum diimplementasikan
+CL-061,Pemasaran & Pertumbuhan,Riset persona pelanggan,Membuat hipotesis persona dan menandai asumsi yang perlu diuji.,P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-062,Pemasaran & Pertumbuhan,Riset pesaing publik,"Membandingkan pesan, harga yang terlihat, dan penawaran publik.",P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-063,Pemasaran & Pertumbuhan,Positioning produk,"Merumuskan segmen, masalah, manfaat, alasan percaya, dan diferensiasi.",P0,Sebagian melalui prompt/template; perlu integrasi data
+CL-064,Pemasaran & Pertumbuhan,Kalender konten,"Menyusun jadwal konten 7, 14, atau 30 hari.",P1,Rencana / belum diimplementasikan
+CL-065,Pemasaran & Pertumbuhan,Hook video pendek,"Menghasilkan beberapa hook untuk diuji, bukan mengklaim viral.",P1,Rencana / belum diimplementasikan
+CL-066,Pemasaran & Pertumbuhan,Skrip video UGC,Menyusun demonstrasi realistis dengan pengungkapan yang jujur.,P1,Rencana / belum diimplementasikan
+CL-067,Pemasaran & Pertumbuhan,Optimasi thumbnail,Menguji satu variabel visual pada setiap eksperimen.,P1,Rencana / belum diimplementasikan
+CL-068,Pemasaran & Pertumbuhan,A/B testing,"Mendefinisikan hipotesis, kelompok pembanding, periode, dan metrik.",P2,Rencana / belum diimplementasikan
+CL-069,Pemasaran & Pertumbuhan,Optimasi ROAS dan profit,Membedakan ROAS iklan dari keuntungan bersih bisnis.,P2,Rencana / belum diimplementasikan
+CL-070,Pemasaran & Pertumbuhan,Peringatan klaim berlebihan,Menandai klaim efektivitas yang tidak disertai bukti.,P2,Rencana / belum diimplementasikan
+CL-071,Pengembangan Produk & Operasional,Kalkulator HPP,"Menghitung biaya bahan, kemasan, tenaga, waste, dan overhead.",P0,Rencana / belum diimplementasikan
+CL-072,Pengembangan Produk & Operasional,Kalkulator batch produksi,Mengubah resep per batch menjadi kebutuhan bahan total.,P0,Rencana / belum diimplementasikan
+CL-073,Pengembangan Produk & Operasional,Pelacakan pemasok,"Mencatat harga pemasok, MOQ, tanggal, dan mutu bahan.",P0,Rencana / belum diimplementasikan
+CL-074,Pengembangan Produk & Operasional,QC bahan baku,Checklist penerimaan bahan dan nomor batch.,P1,Rencana / belum diimplementasikan
+CL-075,Pengembangan Produk & Operasional,QC produk jadi,"Checklist warna, bau, kebocoran, label, dan konsistensi batch.",P1,Rencana / belum diimplementasikan
+CL-076,Pengembangan Produk & Operasional,Pelacakan batch,Menghubungkan produk jadi dengan bahan dan tanggal produksi.,P1,Rencana / belum diimplementasikan
+CL-077,Pengembangan Produk & Operasional,Perhitungan kebutuhan stok,Memperkirakan stok aman berdasarkan penjualan historis.,P1,Rencana / belum diimplementasikan
+CL-078,Pengembangan Produk & Operasional,Pengingat masa simpan,Menandai bahan dan produk yang mendekati tanggal penting.,P2,Rencana / belum diimplementasikan
+CL-079,Pengembangan Produk & Operasional,Checklist kepatuhan label,"Meninjau daftar klaim, petunjuk, komposisi, dan informasi wajib yang relevan.",P2,Rencana / belum diimplementasikan
+CL-080,Pengembangan Produk & Operasional,Rencana eksperimen produk,"Mengatur uji formula, stabilitas, kemasan, dan hasil yang diukur.",P2,Rencana / belum diimplementasikan
+CL-081,Keuangan & Analitik,Pencatatan biaya usaha,Mengkategorikan biaya dari CSV yang diberikan pengguna.,P0,Rencana / belum diimplementasikan
+CL-082,Keuangan & Analitik,Rekonsiliasi payout,"Mencocokkan pesanan, fee, refund, dan pembayaran marketplace.",P0,Rencana / belum diimplementasikan
+CL-083,Keuangan & Analitik,Arus kas sederhana,Membuat proyeksi uang masuk/keluar dari asumsi transparan.,P0,Rencana / belum diimplementasikan
+CL-084,Keuangan & Analitik,Titik impas,Menghitung jumlah penjualan yang diperlukan untuk menutup biaya tetap.,P1,Rencana / belum diimplementasikan
+CL-085,Keuangan & Analitik,Analisis kontribusi,Mengidentifikasi produk dan kanal yang menyumbang margin terbesar.,P1,Rencana / belum diimplementasikan
+CL-086,Keuangan & Analitik,Alarm biaya iklan,Memunculkan notifikasi saat biaya mencapai batas yang disetel.,P1,Rencana / belum diimplementasikan
+CL-087,Keuangan & Analitik,Anggaran campaign,Menyusun plafon pengeluaran dan aturan berhenti.,P1,Rencana / belum diimplementasikan
+CL-088,Keuangan & Analitik,Forecast dengan rentang,"Menyajikan skenario rendah, dasar, dan tinggi, bukan kepastian.",P2,Rencana / belum diimplementasikan
+CL-089,Keuangan & Analitik,Pelacakan refund,Memantau alasan refund dan pengaruhnya terhadap margin.,P2,Rencana / belum diimplementasikan
+CL-090,Keuangan & Analitik,Laporan mingguan,"Merangkum KPI, eksperimen, risiko, dan prioritas minggu berikutnya.",P2,Rencana / belum diimplementasikan
+CL-091,Konten & Kreatif,Pembuat caption,"Menyusun caption lintas marketplace, Reels, TikTok, dan Shorts.",P0,Rencana / belum diimplementasikan
+CL-092,Konten & Kreatif,Pembuat deskripsi produk,Menulis deskripsi terstruktur tanpa keyword stuffing.,P0,Rencana / belum diimplementasikan
+CL-093,Konten & Kreatif,Generator FAQ,Menyusun jawaban untuk pertanyaan pelanggan yang sering muncul.,P0,Rencana / belum diimplementasikan
+CL-094,Konten & Kreatif,Storyboard video,"Membuat adegan, durasi, visual, narasi, dan CTA.",P1,Rencana / belum diimplementasikan
+CL-095,Konten & Kreatif,Prompt gambar produk,Menyusun brief gambar dengan identitas kemasan yang konsisten.,P1,Rencana / belum diimplementasikan
+CL-096,Konten & Kreatif,Prompt video produk,Menyusun brief video untuk alat kreatif yang dipilih pengguna.,P1,Rencana / belum diimplementasikan
+CL-097,Konten & Kreatif,Konten edukasi,Mengubah fitur produk menjadi edukasi yang dapat diverifikasi.,P1,Rencana / belum diimplementasikan
+CL-098,Konten & Kreatif,Repurposing konten,Mengubah satu ide menjadi format berbeda tanpa salin-tempel membabi buta.,P2,Rencana / belum diimplementasikan
+CL-099,Konten & Kreatif,Pemeriksa ejaan Indonesia,"Memeriksa typo, tanda baca, kejelasan, dan nada komunikasi.",P2,Rencana / belum diimplementasikan
+CL-100,Konten & Kreatif,Perpustakaan brand voice,Menyimpan pedoman gaya bahasa dan contoh yang disetujui.,P2,Rencana / belum diimplementasikan
+CL-101,Riset & Berpikir Kritis,Riset web dengan sumber,Mencari informasi saat diperlukan dan menyertakan tautan sumber.,P0,Rencana / belum diimplementasikan
+CL-102,Riset & Berpikir Kritis,Prioritas sumber primer,"Mendahulukan dokumentasi, regulator, makalah, dan data asal.",P0,Rencana / belum diimplementasikan
+CL-103,Riset & Berpikir Kritis,Verifikasi tanggal,"Membedakan tanggal publikasi, kejadian, dan pembaruan.",P0,Rencana / belum diimplementasikan
+CL-104,Riset & Berpikir Kritis,Pemisahan fakta dan asumsi,Memberi label mana yang diketahui dan mana yang dugaan.,P1,Rencana / belum diimplementasikan
+CL-105,Riset & Berpikir Kritis,Analisis pro-kontra,"Mengevaluasi alternatif menurut biaya, risiko, dan manfaat.",P1,Rencana / belum diimplementasikan
+CL-106,Riset & Berpikir Kritis,Red-team ide,Mencari kelemahan dari rencana sendiri sebelum dijalankan.,P1,Rencana / belum diimplementasikan
+CL-107,Riset & Berpikir Kritis,Analisis ketidakpastian,Mencantumkan tingkat keyakinan dan data yang kurang.,P1,Rencana / belum diimplementasikan
+CL-108,Riset & Berpikir Kritis,Matriks keputusan,Membandingkan opsi berdasarkan kriteria berbobot yang transparan.,P2,Rencana / belum diimplementasikan
+CL-109,Riset & Berpikir Kritis,Eksperimen yang bisa dibantah,Menyusun hipotesis dengan metrik dan hasil yang dapat menggugurkan.,P2,Rencana / belum diimplementasikan
+CL-110,Riset & Berpikir Kritis,Ringkasan untuk tindakan,Mengubah riset panjang menjadi keputusan dan langkah berikutnya.,P2,Rencana / belum diimplementasikan
+CL-111,Cyber Security Learning,Peta belajar bertahap,"Membuat kurikulum jaringan, Linux, web, dan keamanan aplikasi.",P0,Rencana / belum diimplementasikan
+CL-112,Cyber Security Learning,Tutor konsep web security,"Menjelaskan auth, access control, injection, SSRF, dan mitigasi.",P0,Rencana / belum diimplementasikan
+CL-113,Cyber Security Learning,Lab terisolasi,Menyusun latihan pada aplikasi rentan lokal atau platform resmi.,P0,Rencana / belum diimplementasikan
+CL-114,Cyber Security Learning,Checklist scope,"Menentukan domain, aset, metode, waktu, dan larangan pengujian.",P1,Rencana / belum diimplementasikan
+CL-115,Cyber Security Learning,Pembuat laporan temuan,"Menyusun ringkasan, bukti aman, dampak, dan mitigasi.",P1,Rencana / belum diimplementasikan
+CL-116,Cyber Security Learning,CVSS sebagai estimasi,"Membantu menilai severity dengan alasan, bukan menggantikan penilaian manual.",P1,Rencana / belum diimplementasikan
+CL-117,Cyber Security Learning,Pemeriksa false positive,Meminta verifikasi dan bukti sebelum menyebut kerentanan valid.,P1,Rencana / belum diimplementasikan
+CL-118,Cyber Security Learning,Pemetaan OWASP,Mengaitkan temuan dengan kategori OWASP yang relevan.,P2,Rencana / belum diimplementasikan
+CL-119,Cyber Security Learning,Tutor source code review,"Menelusuri flow input, auth, sink, dan validasi dalam kode yang disediakan.",P2,Rencana / belum diimplementasikan
+CL-120,Cyber Security Learning,Catatan belajar,"Menyimpan konsep, perintah lab, dan pelajaran yang dipelajari.",P2,Rencana / belum diimplementasikan
+CL-121,Tools Cyber yang Diotorisasi,Orkestrasi scanner terbatas,Menjalankan tools hanya pada target allowlist yang disetujui.,P0,Rencana / belum diimplementasikan
+CL-122,Tools Cyber yang Diotorisasi,Validasi allowlist,Membatasi domain dan IP pada scope tertulis.,P0,Rencana / belum diimplementasikan
+CL-123,Tools Cyber yang Diotorisasi,Rate limiting,"Menetapkan batas concurrency, request per detik, dan timeout.",P0,Rencana / belum diimplementasikan
+CL-124,Tools Cyber yang Diotorisasi,Pengecualian endpoint sensitif,"Menghindari logout, delete, transaksi, dan fungsi destruktif.",P1,Rencana / belum diimplementasikan
+CL-125,Tools Cyber yang Diotorisasi,Mode pasif,Memprioritaskan sumber pasif bila itu cukup untuk tujuan.,P1,Rencana / belum diimplementasikan
+CL-126,Tools Cyber yang Diotorisasi,Log audit scan,"Mencatat waktu, versi tool, target yang disetujui, dan hasil.",P1,Rencana / belum diimplementasikan
+CL-127,Tools Cyber yang Diotorisasi,Manajemen template,Meninjau template scanner sebelum menjalankannya.,P1,Rencana / belum diimplementasikan
+CL-128,Tools Cyber yang Diotorisasi,Penyamaran rahasia,Menyensor token dan data sensitif dalam log laporan.,P2,Rencana / belum diimplementasikan
+CL-129,Tools Cyber yang Diotorisasi,Reproducibility,"Merekam perintah, versi, konfigurasi, dan langkah reproduksi.",P2,Rencana / belum diimplementasikan
+CL-130,Tools Cyber yang Diotorisasi,Responsible disclosure,Menyiapkan draft laporan dan komunikasi berdasarkan kebijakan program.,P2,Rencana / belum diimplementasikan
+CL-131,Keamanan Digital Pribadi,Pemeriksaan pembaruan,Mengingatkan pembaruan OS dan aplikasi penting.,P0,Rencana / belum diimplementasikan
+CL-132,Keamanan Digital Pribadi,Audit startup apps,Membantu meninjau program startup tanpa mematikannya sendiri.,P0,Rencana / belum diimplementasikan
+CL-133,Keamanan Digital Pribadi,Audit ekstensi browser,Mendata izin ekstensi dan membantu meninjau kebutuhan.,P0,Rencana / belum diimplementasikan
+CL-134,Keamanan Digital Pribadi,Checklist backup,Mengingatkan backup file penting dan verifikasi restore.,P1,Rencana / belum diimplementasikan
+CL-135,Keamanan Digital Pribadi,Deteksi file berisiko,Menjelaskan ekstensi dan indikator file sebelum dibuka.,P1,Rencana / belum diimplementasikan
+CL-136,Keamanan Digital Pribadi,Peringatan phishing,Menilai indikator email atau URL yang diberikan pengguna.,P1,Rencana / belum diimplementasikan
+CL-137,Keamanan Digital Pribadi,Pemeriksaan izin aplikasi,Menjelaskan permission dan opsi pengaturan yang aman.,P1,Rencana / belum diimplementasikan
+CL-138,Keamanan Digital Pribadi,Password hygiene,Menyarankan password manager dan MFA tanpa meminta rahasia.,P2,Rencana / belum diimplementasikan
+CL-139,Keamanan Digital Pribadi,Privasi data lokal,Membantu menemukan log dan cache aplikasi dengan konfirmasi.,P2,Rencana / belum diimplementasikan
+CL-140,Keamanan Digital Pribadi,Rencana pemulihan,Membuat langkah pemulihan akun dan perangkat yang sah.,P2,Rencana / belum diimplementasikan
+CL-141,Produktivitas & Waktu,Todo list lintas proyek,"Mengelompokkan tugas menurut proyek, urgensi, dan energi.",P0,Rencana / belum diimplementasikan
+CL-142,Produktivitas & Waktu,Kalender dan blok waktu,Mengubah sasaran menjadi jadwal yang realistis.,P0,Rencana / belum diimplementasikan
+CL-143,Produktivitas & Waktu,Pengingat tenggat,Memberi pengingat pada jadwal yang pengguna tetapkan.,P0,Rencana / belum diimplementasikan
+CL-144,Produktivitas & Waktu,Daily briefing,"Merangkum prioritas, agenda, dan blok waktu hari ini.",P1,Rencana / belum diimplementasikan
+CL-145,Produktivitas & Waktu,Weekly review,"Mengevaluasi hasil, hambatan, dan prioritas minggu depan.",P1,Rencana / belum diimplementasikan
+CL-146,Produktivitas & Waktu,Pomodoro fokus,Timer fokus dan jeda dengan mode jangan ganggu.,P1,Rencana / belum diimplementasikan
+CL-147,Produktivitas & Waktu,Pencatat keputusan,"Menyimpan keputusan, alasan, tanggal, dan syarat evaluasi ulang.",P1,Rencana / belum diimplementasikan
+CL-148,Produktivitas & Waktu,Pembagi tugas besar,Memecah proyek menjadi langkah 15–60 menit.,P2,Rencana / belum diimplementasikan
+CL-149,Produktivitas & Waktu,Peringatan multitasking,Menyarankan satu prioritas utama jika terlalu banyak hal aktif.,P2,Rencana / belum diimplementasikan
+CL-150,Produktivitas & Waktu,Habit tracker,Melacak kebiasaan pilihan pengguna tanpa penilaian menghakimi.,P2,Rencana / belum diimplementasikan
+CL-151,File & Dokumen,Pencarian file,Membantu mencari file menurut nama dan jenis melalui tindakan yang terlihat.,P0,Rencana / belum diimplementasikan
+CL-152,File & Dokumen,Ringkasan dokumen,Merangkum dokumen yang dipilih pengguna.,P0,Rencana / belum diimplementasikan
+CL-153,File & Dokumen,Ekstraksi tabel CSV,Membantu membersihkan dan membaca CSV yang dipilih.,P0,Rencana / belum diimplementasikan
+CL-154,File & Dokumen,Pengelompokan download,Menyarankan kategori file unduhan sebelum memindahkannya.,P1,Rencana / belum diimplementasikan
+CL-155,File & Dokumen,Penamaan file konsisten,Menerapkan skema nama yang disetujui.,P1,Rencana / belum diimplementasikan
+CL-156,File & Dokumen,Pemeriksaan duplikat,Menemukan kandidat duplikat tanpa menghapus otomatis.,P1,Rencana / belum diimplementasikan
+CL-157,File & Dokumen,Backup versi file,Membuat salinan sebelum perubahan massal.,P1,Rencana / belum diimplementasikan
+CL-158,File & Dokumen,Template laporan,"Membuat template makalah, audit, dan laporan bisnis.",P2,Rencana / belum diimplementasikan
+CL-159,File & Dokumen,Konversi format,"Membantu menyiapkan alur DOCX, PDF, CSV, dan Markdown.",P2,Rencana / belum diimplementasikan
+CL-160,File & Dokumen,Peringatan file belum tersimpan,Mengingatkan pengecekan sebelum menutup aplikasi.,P2,Rencana / belum diimplementasikan
+CL-161,Komunikasi,Draft email,Menyusun email yang sopan sesuai penerima dan tujuan.,P0,Rencana / belum diimplementasikan
+CL-162,Komunikasi,Draft chat pelanggan,"Menyiapkan jawaban yang empatik, ringkas, dan akurat.",P0,Rencana / belum diimplementasikan
+CL-163,Komunikasi,Balasan keluhan,Mengubah keluhan menjadi langkah penyelesaian yang terukur.,P0,Rencana / belum diimplementasikan
+CL-164,Komunikasi,Pengingat follow-up,Membantu melacak calon pembeli dan percakapan yang perlu ditindaklanjuti.,P1,Rencana / belum diimplementasikan
+CL-165,Komunikasi,Pemeriksa nada,"Menyesuaikan pesan agar formal, ramah, atau persuasif.",P1,Rencana / belum diimplementasikan
+CL-166,Komunikasi,Terjemahan konteks,Menerjemahkan pesan sambil menjaga istilah dan maksud.,P1,Rencana / belum diimplementasikan
+CL-167,Komunikasi,Ringkasan rapat,"Menghasilkan keputusan, action item, pemilik, dan tenggat dari catatan.",P1,Rencana / belum diimplementasikan
+CL-168,Komunikasi,Draft posting,Menyusun posting sosial dan CTA sesuai platform.,P2,Rencana / belum diimplementasikan
+CL-169,Komunikasi,Approval sebelum kirim,Menampilkan pesan lengkap dan penerima sebelum dikirim.,P2,Rencana / belum diimplementasikan
+CL-170,Komunikasi,Riwayat template,Menyimpan template komunikasi yang sudah disetujui pengguna.,P2,Rencana / belum diimplementasikan
+CL-171,Coding & Pengembangan,Tutor coding,"Menjelaskan error, struktur, dan opsi perbaikan dengan contoh.",P0,Rencana / belum diimplementasikan
+CL-172,Coding & Pengembangan,Static code review,"Menganalisis kode yang dipilih, dengan batasan yang jelas.",P0,Rencana / belum diimplementasikan
+CL-173,Coding & Pengembangan,Unit test generator,Menghasilkan uji untuk fungsi dan kasus tepi.,P0,Rencana / belum diimplementasikan
+CL-174,Coding & Pengembangan,Reproduksi bug,"Mengumpulkan langkah, lingkungan, input, dan expected/actual.",P1,Rencana / belum diimplementasikan
+CL-175,Coding & Pengembangan,Git helper,"Menjelaskan diff, commit, branch, dan konflik sebelum perubahan.",P1,Rencana / belum diimplementasikan
+CL-176,Coding & Pengembangan,Dependency audit,Membaca daftar dependensi dan mengecek versi yang tersedia.,P1,Rencana / belum diimplementasikan
+CL-177,Coding & Pengembangan,Changelog,Mendokumentasikan perubahan dan risiko rilis.,P1,Rencana / belum diimplementasikan
+CL-178,Coding & Pengembangan,Environment checklist,"Memeriksa Python, PATH, venv, dan dependensi.",P2,Rencana / belum diimplementasikan
+CL-179,Coding & Pengembangan,Build package,Menyiapkan build dan pengemasan aplikasi dengan log.,P2,Rencana / belum diimplementasikan
+CL-180,Coding & Pengembangan,Backup sebelum edit,Membuat salinan file sebelum modifikasi otomatis.,P2,Rencana / belum diimplementasikan
+CL-181,Info Harian & Perangkat,Cuaca dan agenda,Menampilkan cuaca terkini jika sumber tersedia dan agenda yang dipilih.,P0,Rencana / belum diimplementasikan
+CL-182,Info Harian & Perangkat,Pengingat baterai,Memberi peringatan baterai rendah jika data OS tersedia.,P0,Rencana / belum diimplementasikan
+CL-183,Info Harian & Perangkat,Penyimpanan disk,Memantau ruang disk dan menyarankan pembersihan yang aman.,P0,Rencana / belum diimplementasikan
+CL-184,Info Harian & Perangkat,Status jaringan,Memeriksa konektivitas dasar dan memberi petunjuk troubleshooting.,P1,Rencana / belum diimplementasikan
+CL-185,Info Harian & Perangkat,Kalkulator kontekstual,"Menghitung harga, diskon, persen, dan satuan.",P1,Rencana / belum diimplementasikan
+CL-186,Info Harian & Perangkat,Timer suara,Membuat timer dengan pemberitahuan suara atau visual.,P1,Rencana / belum diimplementasikan
+CL-187,Info Harian & Perangkat,Clipboard history lokal,Menyimpan clipboard hanya bila diaktifkan dan dapat dihapus.,P1,Rencana / belum diimplementasikan
+CL-188,Info Harian & Perangkat,Manajer jendela,Membantu berpindah dan mengatur jendela aplikasi.,P2,Rencana / belum diimplementasikan
+CL-189,Info Harian & Perangkat,Mode presentasi,"Menjeda bubble, notifikasi, dan suara.",P2,Rencana / belum diimplementasikan
+CL-190,Info Harian & Perangkat,Pusat status,"Menampilkan mikrofon, layar, automasi, memory, dan API usage.",P2,Rencana / belum diimplementasikan
+CL-191,"Reliabilitas, Privasi & QA",Status izin selalu terlihat,"Menunjukkan kapan mikrofon, layar, dan otomasi aktif.",P0,Rencana / belum diimplementasikan
+CL-192,"Reliabilitas, Privasi & QA",Penyimpanan lokal default,Menjaga profil memory dan log di perangkat kecuali diekspor.,P0,Rencana / belum diimplementasikan
+CL-193,"Reliabilitas, Privasi & QA",Kontrol retensi,Menghapus jurnal setelah periode yang dipilih.,P0,Rencana / belum diimplementasikan
+CL-194,"Reliabilitas, Privasi & QA",Ekspor dan hapus data,Pengguna bisa mengekspor atau menghapus data Clara.,P1,Rencana / belum diimplementasikan
+CL-195,"Reliabilitas, Privasi & QA",Redaksi rahasia,Mendeteksi pola mirip API key/OTP sebelum jurnal disimpan.,P1,Rencana / belum diimplementasikan
+CL-196,"Reliabilitas, Privasi & QA",Batas biaya API,Memberi plafon penggunaan dan peringatan sebelum permintaan mahal.,P1,Rencana / belum diimplementasikan
+CL-197,"Reliabilitas, Privasi & QA",Audit log otomasi,"Mencatat aksi yang direncanakan, disetujui, dan dicoba.",P1,Rencana / belum diimplementasikan
+CL-198,"Reliabilitas, Privasi & QA",Mode demo,Mendemonstrasikan fitur tanpa akses desktop atau API.,P2,Rencana / belum diimplementasikan
+CL-199,"Reliabilitas, Privasi & QA",Regression tests,"Mengulang tes pada aksi, memory, dan validasi input.",P2,Rencana / belum diimplementasikan
+CL-200,"Reliabilitas, Privasi & QA",Paket diagnostik,Mengumpulkan versi Python dan error teknis tanpa file pribadi.,P2,Rencana / belum diimplementasikan
+CL-201,Belajar & Pengembangan Diri,Tutor adaptif,Menyesuaikan tingkat penjelasan berdasarkan pemahaman yang ditunjukkan.,P0,Rencana / belum diimplementasikan
+CL-202,Belajar & Pengembangan Diri,Flashcards,Membuat kartu tanya-jawab dari catatan yang dipilih.,P0,Rencana / belum diimplementasikan
+CL-203,Belajar & Pengembangan Diri,Kuis latihan,Menguji pemahaman dan menjelaskan jawaban yang salah.,P0,Rencana / belum diimplementasikan
+CL-204,Belajar & Pengembangan Diri,Rencana belajar 30 hari,Membagi materi menjadi target harian yang realistis.,P1,Rencana / belum diimplementasikan
+CL-205,Belajar & Pengembangan Diri,Catatan istilah,Menyusun glosarium istilah bisnis dan cybersecurity.,P1,Rencana / belum diimplementasikan
+CL-206,Belajar & Pengembangan Diri,Review progres belajar,Memperlihatkan materi yang dikuasai dan perlu diulang.,P1,Rencana / belum diimplementasikan
+CL-207,Belajar & Pengembangan Diri,Pembuat mind map teks,Mengubah topik besar menjadi hierarki konsep.,P1,Rencana / belum diimplementasikan
+CL-208,Belajar & Pengembangan Diri,Simulasi wawancara,"Berlatih menjelaskan proyek, pengalaman, dan keputusan teknis.",P2,Rencana / belum diimplementasikan
+CL-209,Belajar & Pengembangan Diri,Portofolio proyek,"Membantu mendokumentasikan tujuan, metode, hasil, dan pelajaran.",P2,Rencana / belum diimplementasikan
+CL-210,Belajar & Pengembangan Diri,Pemeriksa plagiarisme proses,"Membantu parafrase dan sitasi secara etis, bukan menyamarkan penyalinan.",P2,Rencana / belum diimplementasikan
+CL-211,Integrasi Ekosistem,Folder watch opt-in,Mendeteksi file baru pada folder yang dipilih pengguna.,P0,Rencana / belum diimplementasikan
+CL-212,Integrasi Ekosistem,Impor data marketplace,Mengolah ekspor CSV resmi tanpa perlu memberi kata sandi.,P0,Rencana / belum diimplementasikan
+CL-213,Integrasi Ekosistem,Integrasi kalender,Membuat event hanya setelah izin dan dengan preview.,P0,Rencana / belum diimplementasikan
+CL-214,Integrasi Ekosistem,Sinkronisasi backup,Mengirim backup terenkripsi ke lokasi yang dipilih pengguna.,P1,Rencana / belum diimplementasikan
+CL-215,Integrasi Ekosistem,Webhook lokal terbatas,Menerima event dari tool yang disetujui dengan autentikasi.,P1,Rencana / belum diimplementasikan
+CL-216,Integrasi Ekosistem,Integrasi Canva workflow,Menyiapkan brief dan aset untuk dibuka di Canva.,P1,Rencana / belum diimplementasikan
+CL-217,Integrasi Ekosistem,Integrasi GitHub,Membantu review issue dan repo yang diotorisasi.,P1,Rencana / belum diimplementasikan
+CL-218,Integrasi Ekosistem,Integrasi email read-only,Merangkum email yang dipilih tanpa mengirim atau menghapus.,P2,Rencana / belum diimplementasikan
+CL-219,Integrasi Ekosistem,Integrasi task manager,Sinkronisasi todo dengan konfirmasi dan konflik yang ditampilkan.,P2,Rencana / belum diimplementasikan
+CL-220,Integrasi Ekosistem,Plugin capability registry,"Setiap plugin menjelaskan izin, data yang dibaca, dan aksi yang bisa dilakukan.",P2,Rencana / belum diimplementasikan
+CL-221,Karakter & UI,Sprite ekspresi dari unggahan,15 potongan spritesheet; mood dan status mendengar/berbicara memilih ekspresi.,P0,Diimplementasikan; perlu validasi Windows
+CL-222,Keuangan,Keuangan lokal SQLite,Pencatatan transaksi dan audit perubahan kategori secara lokal.,P0,Diimplementasikan
+CL-223,Keuangan,Taksonomi income,"Active, Passive, Portfolio Income.",P0,Diimplementasikan
+CL-224,Keuangan,Taksonomi spending,"Productive, Consumptive, Consumptive with Productive Effect.",P0,Diimplementasikan
+CL-225,Keuangan,Skor kesehatan keuangan,"Skor heuristik untuk refleksi, bukan credit score.",P1,Diimplementasikan
+CL-226,Keuangan,Aset dan depresiasi,Catatan aset dan estimasi penyusutan sederhana.,P1,Diimplementasikan
+CL-227,Keuangan,Langganan,Biaya berulang dan pengingat dasar.,P1,Diimplementasikan
+CL-228,Keuangan,Anggaran dan tujuan,Target kategori dan goal finance.,P1,Diimplementasikan
+CL-229,Keuangan,Ekspor CSV,Ekspor transaksi lokal atas permintaan.,P1,Diimplementasikan
+CL-230,Keuangan,AI Coach,Analisis berbasis ringkasan agregat.,P1,Diimplementasikan
+CL-231,Pasar saham,Watchlist BEI,Watchlist ticker BEI dengan format .JK.,P1,Diimplementasikan
+CL-232,Pasar saham,Indeks IHSG,Data quote/historis Yahoo Finance ketika internet tersedia.,P1,Diimplementasikan; perlu internet
+CL-233,Pasar saham,Berita finansial RSS,Judul Google News RSS dan sentiment kata kunci lokal.,P1,Diimplementasikan; perlu internet
+CL-234,Pasar saham,Indikator tren harian/bulanan,"Heuristik tren, volatilitas, dan momentum, tidak terkalibrasi.",P1,Diimplementasikan
+CL-235,Pasar saham,Auto refresh opsional,Pembaruan berkala 15 menit saat aplikasi terbuka.,P1,Diimplementasikan; OFF default
+CL-236,Optimasi model,Playbook 60 teknik,Dokumentasi aktif/pengaman/eksperimen.,P1,Dokumentasi
+CL-237,Memori,Ekspor playbook,Ikut mengemas buku kerja token bersama paket memori.,P2,Diimplementasikan
+CL-238,Build,Workflow build EXE Windows,Workflow Actions untuk build artefak pada runner Windows.,P1,Ditambahkan; perlu uji di repository

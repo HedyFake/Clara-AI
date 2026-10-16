@@ -1,0 +1,23 @@
+# Lingkungan/build
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+
+# Data runtime pribadi — jangan masukkan ke repository
+settings.json
+finance.db
+finance.db-shm
+finance.db-wal
+market_watchlist.json
+memory_journal.jsonl
+sales_context.txt
+*.log
+screenshots/
+
+# Rahasia lokal
+.env
+.env.*
+secrets.json

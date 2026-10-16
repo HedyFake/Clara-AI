@@ -1,0 +1,4 @@
+Clara Desktop Buddy
+Version: 3.3.0
+Build date: 2026-10-15
+Target: Windows 10/11, Python 3.11/3.12 (jalankan BUILD_EXE.bat untuk membuat EXE)
